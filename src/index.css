@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom pattern used for the 'Idle' state in the Gantt chart */
+.pattern-diagonal-lines {
+  background-image: repeating-linear-gradient(
+    45deg, 
+    transparent, 
+    transparent 5px, 
+    rgba(0, 0, 0, 0.05) 5px, 
+    rgba(0, 0, 0, 0.05) 10px
+  );
+}
